@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Wannation — Home</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">Wannation</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Build your digital ecosystem</h2>
+        <p>Modular services, simple deployment, and a clean public presence — start small, scale fast.</p>
+        <a class="cta" href="#roadmap">See the roadmap</a>
+      </div>
+    </section>
+
+    <section id="about" class="panel">
+      <div class="container">
+        <h3>About Wannation</h3>
+        <p>Wannation is a modular platform for projects, communities, and services. This site is the public gateway to the ecosystem.</p>
+      </div>
+    </section>
+
+    <section id="features" class="panel alt">
+      <div class="container">
+        <h3>Core features</h3>
+        <ul>
+          <li>Static landing and docs (GitHub Pages)</li>
+          <li>Dockerized backend services</li>
+          <li>CI/CD with GitHub Actions</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="roadmap" class="panel">
+      <div class="container">
+        <h3>Roadmap</h3>
+        <ol>
+          <li>Polished landing page and docs</li>
+          <li>Simple API + database</li>
+          <li>Auth, payments, analytics</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="contact" class="panel alt">
+      <div class="container">
+        <h3>Contact</h3>
+        <p>Repo: <a href="https://github.com/wannation01/Wannation">wannation01/Wannation</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© Wannation</small>
+    </div>
+  </footer>
+</body>
+</html>
